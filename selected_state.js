@@ -1,0 +1,1 @@
+window.selected_state = "";

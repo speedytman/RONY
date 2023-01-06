@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="en" class="background">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="state.html">Select State</a></li>
+        <li><a class="active" href="city.html">Select City</a></li>
+        <li><a href="time.html">Select Time</a></li>
+      </ul>
+      <form autocomplete="off" action="./time.html">
+        <div class="autocomplete" style="width:300px;">
+          <input id="myInput" type="text" name="myCity" placeholder="Select City">
+        </div>
+        <input id="submit" type="submit">
+      </form>
+    <script src="city.js"></script>
+</body>
+</html>
